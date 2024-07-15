@@ -79,6 +79,10 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.3.2</version>
                 <configuration>
+                     <archive>
+                        <manifestEntries>
+                        </manifestEntries>
+                     </archive>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                 </configuration>
             </plugin>
