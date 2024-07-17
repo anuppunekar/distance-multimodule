@@ -4,12 +4,12 @@
     <parent>
     <artifactId>Distance-main</artifactId>
     <groupId>com.mvn</groupId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
   </parent>
 
     <groupId>com.mvn</groupId>
     <artifactId>distance-webapp</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
     <name>distance-webapp</name>
