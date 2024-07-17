@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.mvn</groupId>
     <artifactId>Distance-main</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
       <name>distance</name>
     <packaging>pom</packaging>
     <modules>
@@ -18,8 +18,8 @@
                <artifactId>maven-compiler-plugin</artifactId>
                <version>3.1</version>
                <configuration>
-                    <source>17</source>
-                    <target>17</target>
+                    <source>20</source>
+                    <target>20</target>
                </configuration>
            </plugin>
             <plugin>
@@ -48,7 +48,7 @@
       <snapshotRepository>
           <id>distance-snapshot-hosted</id>
           <name>distance-snapshot-hosted</name>
-          <url>http://192.168.0.71:8081/repository/distance-snapshot/</url>
+          <url>http://dell:8081/repository/distance-snapshot/</url>
       </snapshotRepository>
   </distributionManagement>
 </project>
