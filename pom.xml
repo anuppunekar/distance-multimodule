@@ -46,8 +46,8 @@
     </properties>
   <distributionManagement>
       <snapshotRepository>
-          <id>distance-snapshot-hosted</id>
-          <name>distance-snapshot-hosted</name>
+          <id>distance-snapshot</id>
+          <name>distance-snapshot</name>
           <url>http://dell:8081/repository/distance-snapshot/</url>
       </snapshotRepository>
   </distributionManagement>
