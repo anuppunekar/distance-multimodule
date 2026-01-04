@@ -143,4 +143,42 @@ Date:   Mon Jul 15 11:01:18 2024 +0530
 commit 180a93ef4c399e6f5e7073c30953469123e8e2df
 Author: anuppunekar <48128355+anuppunekar@users.noreply.github.com>
 
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git remote 
+dev2601
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git branch                                          * dev2601
+  main
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git status                                          On branch dev2601
+Your branch is up to date with 'dev2601/dev2601'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Distance-main.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git add .
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git status
+On branch dev2601
+Your branch is up to date with 'dev2601/dev2601'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Distance-main.txt
+
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git commit -m "Created"
+[dev2601 75bd7d4] Created
+ 1 file changed, 146 insertions(+)
+ create mode 100644 Distance-main.txt
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git status
+On branch dev2601
+Your branch is ahead of 'dev2601/dev2601' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
 C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>
