@@ -47,6 +47,11 @@ $('#convertvalue').text(responseText);
         </tr>
     </table>
 <div id="convertvalue"> </div>
+
+<br>
+<h2><a href="index.html">mashupapp</a></h2>
+<br>
+
 </form>
 </body>
 </html>

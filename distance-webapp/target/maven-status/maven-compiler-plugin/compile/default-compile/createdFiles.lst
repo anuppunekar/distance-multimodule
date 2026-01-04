@@ -1,1 +1,4 @@
+com\a1electronics\ecommerce\servlets\myYahooImageSearch.class
 com\mydistance\DistanceServlet.class
+com\a1electronics\ecommerce\servlets\myGoogleSearch.class
+com\a1electronics\ecommerce\servlets\myYahooSearch.class
