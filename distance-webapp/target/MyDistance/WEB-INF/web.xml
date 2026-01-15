@@ -1,6 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
     <display-name>MyDistance Calculator</display-name>
+
+	<!-- Semantic Parser -->
+	<servlet>
+		<description>Parse entry and get cloud tag.</description>
+		<display-name>mySemanticParse</display-name>
+		<servlet-name>mySemanticParse</servlet-name>
+		<servlet-class>com.a1electronics.ecommerce.servlets.mySemanticParse</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mySemanticParse</servlet-name>
+		<url-pattern>/mySemanticParse</url-pattern>
+	</servlet-mapping>
+	<!-- Search Twitter -->
+	<servlet>
+		<description>Search Twitter.</description>
+		<display-name>myTwitterSearch</display-name>
+		<servlet-name>myTwitterSearch</servlet-name>
+		<servlet-class>com.a1electronics.ecommerce.servlets.myTwitterSearch</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>myTwitterSearch</servlet-name>
+		<url-pattern>/myTwitterSearch</url-pattern>
+	</servlet-mapping>
+	<!-- Search Yahoo -->
+	<servlet>
+		<description>Search Yahoo.</description>
+		<display-name>myYahooSearch</display-name>
+		<servlet-name>myYahooSearch</servlet-name>
+		<servlet-class>com.a1electronics.ecommerce.servlets.myYahooSearch</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>myYahooSearch</servlet-name>
+		<url-pattern>/myYahooSearch</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Search Yahoo Images -->
+	<servlet>
+		<description>Search Yahoo Images.</description>
+		<display-name>myYahooImageSearch</display-name>
+		<servlet-name>myYahooImageSearch</servlet-name>
+		<servlet-class>com.a1electronics.ecommerce.servlets.myYahooImageSearch</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>myYahooImageSearch</servlet-name>
+		<url-pattern>/myYahooImageSearch</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Search Google -->
+	<servlet>
+		<description>Search Google.</description>
+		<display-name>myGoogleSearch</display-name>
+		<servlet-name>myGoogleSearch</servlet-name>
+		<servlet-class>com.a1electronics.ecommerce.servlets.myGoogleSearch</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>myGoogleSearch</servlet-name>
+		<url-pattern>/myGoogleSearch</url-pattern>
+	</servlet-mapping>
+
     <servlet>
         <servlet-name>mydistance</servlet-name>
         <servlet-class>com.mydistance.DistanceServlet</servlet-class>

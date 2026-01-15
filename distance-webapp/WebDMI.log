@@ -1,1 +1,56 @@
 [http-bio-8084-exec-6] DEBUGDistanceServlet  - Request Parameters ==>Distance-20000.0m Conversion Unit- mi
+[qtp605787935-21] DEBUGDistanceServlet  - Request Parameters ==>Distance-15.0km Conversion Unit- mi
+[qtp1898870910-23] DEBUGDistanceServlet  - Request Parameters ==>Distance-15.0km Conversion Unit- mi
+[qtp1214498988-19] DEBUGDistanceServlet  - Request Parameters ==>Distance-15.0km Conversion Unit- mi
+[qtp1414093109-24] DEBUGDefaultHttpParams  - Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+[qtp1414093109-24] DEBUGDefaultHttpParams  - Set parameter http.protocol.version = HTTP/1.1
+[qtp1414093109-24] DEBUGDefaultHttpParams  - Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+[qtp1414093109-24] DEBUGDefaultHttpParams  - Set parameter http.protocol.cookie-policy = default
+[qtp1414093109-24] DEBUGDefaultHttpParams  - Set parameter http.protocol.element-charset = US-ASCII
+[qtp1414093109-24] DEBUGDefaultHttpParams  - Set parameter http.protocol.content-charset = ISO-8859-1
+[qtp1414093109-24] DEBUGDefaultHttpParams  - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@7c66af58
+[qtp1414093109-24] DEBUGDefaultHttpParams  - Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+[qtp1414093109-24] DEBUGHttpClient  - Java version: 17.0.11
+[qtp1414093109-24] DEBUGHttpClient  - Java vendor: Oracle Corporation
+[qtp1414093109-24] DEBUGHttpClient  - Java class path: D:\Program Files\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+[qtp1414093109-24] DEBUGHttpClient  - Operating system name: Windows 10
+[qtp1414093109-24] DEBUGHttpClient  - Operating system architecture: amd64
+[qtp1414093109-24] DEBUGHttpClient  - Operating system version: 10.0
+[qtp1414093109-24] DEBUGHttpClient  - SUN 17.0: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; PKCS12, JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+[qtp1414093109-24] DEBUGHttpClient  - SunRsaSign 17.0: Sun RSA signature provider
+[qtp1414093109-24] DEBUGHttpClient  - SunEC 17.0: Sun Elliptic Curve provider
+[qtp1414093109-24] DEBUGHttpClient  - SunJSSE 17.0: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2/TLSv1.3/DTLSv1.0/DTLSv1.2)
+[qtp1414093109-24] DEBUGHttpClient  - SunJCE 17.0: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC, ChaCha20)
+[qtp1414093109-24] DEBUGHttpClient  - SunJGSS 17.0: Sun (Kerberos v5, SPNEGO)
+[qtp1414093109-24] DEBUGHttpClient  - SunSASL 17.0: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, CRAM-MD5, NTLM)
+[qtp1414093109-24] DEBUGHttpClient  - XMLDSig 17.0: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+[qtp1414093109-24] DEBUGHttpClient  - SunPCSC 17.0: Sun PC/SC provider
+[qtp1414093109-24] DEBUGHttpClient  - JdkLDAP 17.0: JdkLDAP Provider (implements LDAP CertStore)
+[qtp1414093109-24] DEBUGHttpClient  - JdkSASL 17.0: JDK SASL provider(implements client and server mechanisms for GSSAPI)
+[qtp1414093109-24] DEBUGHttpClient  - SunMSCAPI 17.0: Sun's Microsoft Crypto API provider
+[qtp1414093109-24] DEBUGHttpClient  - SunPKCS11 17.0: Unconfigured and unusable PKCS11 provider
+[qtp1414093109-23] DEBUGHttpConnection  - Open connection to search.yahooapis.com:80
+[qtp1414093109-24] DEBUGHttpConnection  - Open connection to search.yahooapis.com:80
+[qtp1414093109-23] DEBUGHttpMethodDirector  - Closing the connection.
+[qtp1414093109-23] DEBUGHttpMethodDirector  - Method retry handler returned false. Automatic recovery will not be attempted
+[qtp1414093109-23] DEBUGHttpConnection  - Releasing connection back to connection manager.
+[qtp1414093109-24] DEBUGHttpMethodDirector  - Closing the connection.
+[qtp1414093109-24] DEBUGHttpMethodDirector  - Method retry handler returned false. Automatic recovery will not be attempted
+[qtp1414093109-24] DEBUGHttpConnection  - Releasing connection back to connection manager.
+[qtp1414093109-21] DEBUGHttpConnection  - Open connection to api.semantichacker.com:80
+[qtp1414093109-21] DEBUGHttpMethodDirector  - Closing the connection.
+[qtp1414093109-21] DEBUGHttpMethodDirector  - Method retry handler returned false. Automatic recovery will not be attempted
+[qtp1414093109-21] DEBUGHttpConnection  - Releasing connection back to connection manager.
+[qtp1414093109-17] DEBUGDistanceServlet  - Request Parameters ==>Distance-15.0km Conversion Unit- mi
+[qtp1414093109-17] DEBUGHttpConnection  - Open connection to search.yahooapis.com:80
+[qtp1414093109-22] DEBUGHttpConnection  - Open connection to search.yahooapis.com:80
+[qtp1414093109-17] DEBUGHttpMethodDirector  - Closing the connection.
+[qtp1414093109-17] DEBUGHttpMethodDirector  - Method retry handler returned false. Automatic recovery will not be attempted
+[qtp1414093109-17] DEBUGHttpConnection  - Releasing connection back to connection manager.
+[qtp1414093109-22] DEBUGHttpMethodDirector  - Closing the connection.
+[qtp1414093109-22] DEBUGHttpMethodDirector  - Method retry handler returned false. Automatic recovery will not be attempted
+[qtp1414093109-22] DEBUGHttpConnection  - Releasing connection back to connection manager.
+[qtp1414093109-21] DEBUGHttpConnection  - Open connection to api.semantichacker.com:80
+[qtp1414093109-21] DEBUGHttpMethodDirector  - Closing the connection.
+[qtp1414093109-21] DEBUGHttpMethodDirector  - Method retry handler returned false. Automatic recovery will not be attempted
+[qtp1414093109-21] DEBUGHttpConnection  - Releasing connection back to connection manager.
