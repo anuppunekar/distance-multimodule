@@ -1,0 +1,502 @@
+Microsoft Windows [Version 10.0.19045.6466]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\stsProjects>git clone https://github.com/anuppunekar/distance-multimodule 
+odule
+'git' is not recognized as an internal or external command,
+operable program or batch file.
+                                                                                      nuppunekar/distance-mult
+D:\stsProjects>"D:\Program Files\Git\bin\git.exe" clone https://github.com/a
+com/anuppunekar/distance-multimodule
+Cloning into 'distance-multimodule'...
+remote: Enumerating objects: 299, done.
+remote: Counting objects: 100% (299/299), done.
+remote: Compressing objects: 100% (158/158), done.
+remote: Total 299 (delta 71), reused 270 (delta 54), pack-reused 0 (from 0)      
+Receiving objects: 100% (299/299), 1.47 MiB | 2.21 MiB/s, done.
+Resolving deltas: 100% (71/71), done.
+Checking connectivity... done.
+
+D:\stsProjects>cd distance-multimodule
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe" 
+remote
+origin
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe" 
+branch
+* main
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe" 
+checkout -b devmashupapp
+M       distance-core/pom.xml
+M       distance-core/target/classes/com/mydistance/util/ConversionUtil.class
+M       distance-core/target/distance.jar
+M       distance-core/target/maven-archiver/pom.properties
+M       distance-core/target/maven-status/maven-compiler-plugin/compile/default-c
+ompile/inputFiles.lst
+M       distance-core/target/maven-status/maven-compiler-plugin/testCompile/defau
+lt-testCompile/inputFiles.lst
+M       distance-core/target/surefire-reports/TEST-com.mydistance.util.Conversion
+UtilTest.xml
+M       distance-core/target/surefire-reports/com.mydistance.util.ConversionUtilT
+est.txt
+M       distance-core/target/test-classes/com/mydistance/util/ConversionUtilTest.
+class
+M       distance-webapp/WebDMI.log
+M       distance-webapp/pom.xml
+M       distance-webapp/src/main/java/com/mydistance/DistanceServlet.java        
+D       distance-webapp/src/main/webapp/WEB-INF/glassfish-web.xml
+M       distance-webapp/src/main/webapp/WEB-INF/web.xml
+M       distance-webapp/src/main/webapp/index.html
+M       distance-webapp/src/main/webapp/index.jsp
+M       distance-webapp/target/MyDistance.war
+M       distance-webapp/target/MyDistance/WEB-INF/classes/com/mydistance/Distance
+Servlet.class
+D       distance-webapp/target/MyDistance/WEB-INF/glassfish-web.xml
+M       distance-webapp/target/MyDistance/WEB-INF/lib/distance-core-0.0.1-SNAPSHO
+T.jar
+M       distance-webapp/target/MyDistance/WEB-INF/web.xml
+M       distance-webapp/target/MyDistance/index.html
+M       distance-webapp/target/MyDistance/index.jsp
+M       distance-webapp/target/classes/com/mydistance/DistanceServlet.class      
+M       distance-webapp/target/maven-status/maven-compiler-plugin/compile/default
+-compile/createdFiles.lst
+M       distance-webapp/target/maven-status/maven-compiler-plugin/compile/default
+-compile/inputFiles.lst
+D       distance-webapp/target/maven-status/maven-compiler-plugin/testCompile/def
+ault-testCompile/inputFiles.lst
+M       pom.xml
+Switched to a new branch 'devmashupapp'
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe" 
+branch
+* devmashupapp
+  main
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe" 
+status
+On branch devmashupapp
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)      
+
+        modified:   distance-core/pom.xml
+        modified:   distance-core/target/classes/com/mydistance/util/ConversionUt
+il.class
+        modified:   distance-core/target/distance.jar
+        modified:   distance-core/target/maven-archiver/pom.properties
+        modified:   distance-core/target/maven-status/maven-compiler-plugin/compi
+le/default-compile/inputFiles.lst
+        modified:   distance-core/target/maven-status/maven-compiler-plugin/testC
+ompile/default-testCompile/inputFiles.lst
+        modified:   distance-core/target/surefire-reports/TEST-com.mydistance.uti
+l.ConversionUtilTest.xml
+        modified:   distance-core/target/surefire-reports/com.mydistance.util.Con
+versionUtilTest.txt
+        modified:   distance-core/target/test-classes/com/mydistance/util/Convers
+ionUtilTest.class
+        modified:   distance-webapp/WebDMI.log
+        modified:   distance-webapp/pom.xml
+        modified:   distance-webapp/src/main/java/com/mydistance/DistanceServlet.
+java
+        deleted:    distance-webapp/src/main/webapp/WEB-INF/glassfish-web.xml    
+        modified:   distance-webapp/src/main/webapp/WEB-INF/web.xml
+        modified:   distance-webapp/src/main/webapp/index.html
+        modified:   distance-webapp/src/main/webapp/index.jsp
+        modified:   distance-webapp/target/MyDistance.war
+        modified:   distance-webapp/target/MyDistance/WEB-INF/classes/com/mydista
+nce/DistanceServlet.class
+        deleted:    distance-webapp/target/MyDistance/WEB-INF/glassfish-web.xml  
+        modified:   distance-webapp/target/MyDistance/WEB-INF/lib/distance-core-0
+.0.1-SNAPSHOT.jar
+        modified:   distance-webapp/target/MyDistance/WEB-INF/web.xml
+        modified:   distance-webapp/target/MyDistance/index.html
+        modified:   distance-webapp/target/MyDistance/index.jsp
+        modified:   distance-webapp/target/classes/com/mydistance/DistanceServlet
+.class
+        modified:   distance-webapp/target/maven-status/maven-compiler-plugin/com
+pile/default-compile/createdFiles.lst
+        modified:   distance-webapp/target/maven-status/maven-compiler-plugin/com
+pile/default-compile/inputFiles.lst
+        deleted:    distance-webapp/target/maven-status/maven-compiler-plugin/tes
+tCompile/default-testCompile/inputFiles.lst
+        modified:   pom.xml
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .project
+        .settings/
+        distance-core/.classpath
+        distance-core/.project
+        distance-core/.settings/
+        distance-core/target/surefire-reports/2026-01-16T00-47-15_135.dumpstream 
+        distance-webapp/.classpath
+        distance-webapp/.project
+        distance-webapp/.settings/
+        distance-webapp/src/main/java/com/a1electronics/
+        distance-webapp/src/main/webapp/RESTfulClient.jsp
+        distance-webapp/src/main/webapp/prototype.js
+        distance-webapp/src/main/webapp/style.css
+        distance-webapp/target/MyDistance/RESTfulClient.jsp
+        distance-webapp/target/MyDistance/WEB-INF/classes/com/a1electronics/     
+        distance-webapp/target/MyDistance/WEB-INF/lib/commons-codec-1.3.jar      
+        distance-webapp/target/MyDistance/WEB-INF/lib/commons-httpclient-3.1.jar 
+        distance-webapp/target/MyDistance/WEB-INF/lib/commons-logging-1.1.1.jar  
+        distance-webapp/target/MyDistance/prototype.js
+        distance-webapp/target/MyDistance/style.css
+        distance-webapp/target/classes/com/a1electronics/
+        distance-webapp/target/tmp/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe" 
+commit -m "Created"
+On branch devmashupapp
+Changes not staged for commit:
+        modified:   distance-core/pom.xml
+        modified:   distance-core/target/classes/com/mydistance/util/ConversionUt
+il.class
+        modified:   distance-core/target/distance.jar
+        modified:   distance-core/target/maven-archiver/pom.properties
+        modified:   distance-core/target/maven-status/maven-compiler-plugin/compi
+le/default-compile/inputFiles.lst
+        modified:   distance-core/target/maven-status/maven-compiler-plugin/testC
+ompile/default-testCompile/inputFiles.lst
+        modified:   distance-core/target/surefire-reports/TEST-com.mydistance.uti
+l.ConversionUtilTest.xml
+        modified:   distance-core/target/surefire-reports/com.mydistance.util.Con
+versionUtilTest.txt
+        modified:   distance-core/target/test-classes/com/mydistance/util/Convers
+ionUtilTest.class
+        modified:   distance-webapp/WebDMI.log
+        modified:   distance-webapp/pom.xml
+        modified:   distance-webapp/src/main/java/com/mydistance/DistanceServlet.
+java
+        deleted:    distance-webapp/src/main/webapp/WEB-INF/glassfish-web.xml    
+        modified:   distance-webapp/src/main/webapp/WEB-INF/web.xml
+        modified:   distance-webapp/src/main/webapp/index.html
+        modified:   distance-webapp/src/main/webapp/index.jsp
+        modified:   distance-webapp/target/MyDistance.war
+        modified:   distance-webapp/target/MyDistance/WEB-INF/classes/com/mydista
+nce/DistanceServlet.class
+        deleted:    distance-webapp/target/MyDistance/WEB-INF/glassfish-web.xml  
+        modified:   distance-webapp/target/MyDistance/WEB-INF/lib/distance-core-0
+.0.1-SNAPSHOT.jar
+        modified:   distance-webapp/target/MyDistance/WEB-INF/web.xml
+        modified:   distance-webapp/target/MyDistance/index.html
+        modified:   distance-webapp/target/MyDistance/index.jsp
+        modified:   distance-webapp/target/classes/com/mydistance/DistanceServlet
+.class
+        modified:   distance-webapp/target/maven-status/maven-compiler-plugin/com
+pile/default-compile/createdFiles.lst
+        modified:   distance-webapp/target/maven-status/maven-compiler-plugin/com
+pile/default-compile/inputFiles.lst
+        deleted:    distance-webapp/target/maven-status/maven-compiler-plugin/tes
+tCompile/default-testCompile/inputFiles.lst
+        modified:   pom.xml
+
+Untracked files:
+        .project
+        .settings/
+        distance-core/.classpath
+        distance-core/.project
+        distance-core/.settings/
+        distance-core/target/surefire-reports/2026-01-16T00-47-15_135.dumpstream 
+        distance-webapp/.classpath
+        distance-webapp/.project
+        distance-webapp/.settings/
+        distance-webapp/src/main/java/com/a1electronics/
+        distance-webapp/src/main/webapp/RESTfulClient.jsp
+        distance-webapp/src/main/webapp/prototype.js
+        distance-webapp/src/main/webapp/style.css
+        distance-webapp/target/MyDistance/RESTfulClient.jsp
+        distance-webapp/target/MyDistance/WEB-INF/classes/com/a1electronics/     
+        distance-webapp/target/MyDistance/WEB-INF/lib/commons-codec-1.3.jar      
+        distance-webapp/target/MyDistance/WEB-INF/lib/commons-httpclient-3.1.jar 
+        distance-webapp/target/MyDistance/WEB-INF/lib/commons-logging-1.1.1.jar  
+        distance-webapp/target/MyDistance/prototype.js
+        distance-webapp/target/MyDistance/style.css
+        distance-webapp/target/classes/com/a1electronics/
+        distance-webapp/target/tmp/
+
+no changes added to commit
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe" 
+add .              
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe" 
+status
+On branch devmashupapp
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   .project
+        new file:   .settings/org.eclipse.core.resources.prefs
+        new file:   .settings/org.eclipse.m2e.core.prefs
+        new file:   distance-core/.classpath
+        new file:   distance-core/.project
+        new file:   distance-core/.settings/org.eclipse.core.resources.prefs     
+        new file:   distance-core/.settings/org.eclipse.jdt.apt.core.prefs       
+        new file:   distance-core/.settings/org.eclipse.jdt.core.prefs
+        new file:   distance-core/.settings/org.eclipse.m2e.core.prefs
+        new file:   distance-core/.settings/org.eclipse.wst.common.component     
+        new file:   distance-core/.settings/org.eclipse.wst.common.project.facet.
+core.xml
+        modified:   distance-core/pom.xml
+        modified:   distance-core/target/classes/com/mydistance/util/ConversionUt
+il.class
+        modified:   distance-core/target/distance.jar
+        modified:   distance-core/target/maven-archiver/pom.properties
+        modified:   distance-core/target/maven-status/maven-compiler-plugin/compi
+le/default-compile/inputFiles.lst
+        modified:   distance-core/target/maven-status/maven-compiler-plugin/testC
+ompile/default-testCompile/inputFiles.lst
+        new file:   distance-core/target/surefire-reports/2026-01-16T00-47-15_135
+.dumpstream
+        modified:   distance-core/target/surefire-reports/TEST-com.mydistance.uti
+l.ConversionUtilTest.xml
+        modified:   distance-core/target/surefire-reports/com.mydistance.util.Con
+versionUtilTest.txt
+        modified:   distance-core/target/test-classes/com/mydistance/util/Convers
+ionUtilTest.class
+        new file:   distance-webapp/.classpath
+        new file:   distance-webapp/.project
+        new file:   distance-webapp/.settings/.jsdtscope
+        new file:   distance-webapp/.settings/org.eclipse.core.resources.prefs   
+        new file:   distance-webapp/.settings/org.eclipse.jdt.apt.core.prefs     
+        new file:   distance-webapp/.settings/org.eclipse.jdt.core.prefs
+        new file:   distance-webapp/.settings/org.eclipse.m2e.core.prefs
+        new file:   distance-webapp/.settings/org.eclipse.wst.common.component   
+        new file:   distance-webapp/.settings/org.eclipse.wst.common.project.face
+t.core.xml
+        new file:   distance-webapp/.settings/org.eclipse.wst.jsdt.ui.superType.c
+ontainer
+        new file:   distance-webapp/.settings/org.eclipse.wst.jsdt.ui.superType.n
+ame
+        new file:   distance-webapp/.settings/org.eclipse.wst.validation.prefs   
+        modified:   distance-webapp/WebDMI.log
+        modified:   distance-webapp/pom.xml
+        new file:   distance-webapp/src/main/java/com/a1electronics/ecommerce/ser
+vlets/myGoogleSearch.java
+        new file:   distance-webapp/src/main/java/com/a1electronics/ecommerce/ser
+vlets/mySemanticParse.java
+        new file:   distance-webapp/src/main/java/com/a1electronics/ecommerce/ser
+vlets/myTwitterSearch.java
+        new file:   distance-webapp/src/main/java/com/a1electronics/ecommerce/ser
+vlets/myYahooImageSearch.java
+        new file:   distance-webapp/src/main/java/com/a1electronics/ecommerce/ser
+vlets/myYahooSearch.java
+        modified:   distance-webapp/src/main/java/com/mydistance/DistanceServlet.
+java
+        new file:   distance-webapp/src/main/webapp/RESTfulClient.jsp
+        deleted:    distance-webapp/src/main/webapp/WEB-INF/glassfish-web.xml    
+        modified:   distance-webapp/src/main/webapp/WEB-INF/web.xml
+        modified:   distance-webapp/src/main/webapp/index.html
+        modified:   distance-webapp/src/main/webapp/index.jsp
+        new file:   distance-webapp/src/main/webapp/prototype.js
+        new file:   distance-webapp/src/main/webapp/style.css
+        modified:   distance-webapp/target/MyDistance.war
+        new file:   distance-webapp/target/MyDistance/RESTfulClient.jsp
+        new file:   distance-webapp/target/MyDistance/WEB-INF/classes/com/a1elect
+ronics/ecommerce/servlets/myGoogleSearch.class
+        new file:   distance-webapp/target/MyDistance/WEB-INF/classes/com/a1elect
+ronics/ecommerce/servlets/mySemanticParse.class
+        new file:   distance-webapp/target/MyDistance/WEB-INF/classes/com/a1elect
+ronics/ecommerce/servlets/myTwitterSearch.class
+        new file:   distance-webapp/target/MyDistance/WEB-INF/classes/com/a1elect
+ronics/ecommerce/servlets/myYahooImageSearch.class
+        new file:   distance-webapp/target/MyDistance/WEB-INF/classes/com/a1elect
+ronics/ecommerce/servlets/myYahooSearch.class
+        modified:   distance-webapp/target/MyDistance/WEB-INF/classes/com/mydista
+nce/DistanceServlet.class
+        deleted:    distance-webapp/target/MyDistance/WEB-INF/glassfish-web.xml  
+        new file:   distance-webapp/target/MyDistance/WEB-INF/lib/commons-codec-1
+.3.jar
+        new file:   distance-webapp/target/MyDistance/WEB-INF/lib/commons-httpcli
+ent-3.1.jar
+        new file:   distance-webapp/target/MyDistance/WEB-INF/lib/commons-logging
+-1.1.1.jar
+        modified:   distance-webapp/target/MyDistance/WEB-INF/lib/distance-core-0
+.0.1-SNAPSHOT.jar
+        modified:   distance-webapp/target/MyDistance/WEB-INF/web.xml
+        modified:   distance-webapp/target/MyDistance/index.html
+        modified:   distance-webapp/target/MyDistance/index.jsp
+        new file:   distance-webapp/target/MyDistance/prototype.js
+        new file:   distance-webapp/target/MyDistance/style.css
+        new file:   distance-webapp/target/classes/com/a1electronics/ecommerce/se
+rvlets/myGoogleSearch.class
+        new file:   distance-webapp/target/classes/com/a1electronics/ecommerce/se
+rvlets/mySemanticParse.class
+        new file:   distance-webapp/target/classes/com/a1electronics/ecommerce/se
+rvlets/myTwitterSearch.class
+        new file:   distance-webapp/target/classes/com/a1electronics/ecommerce/se
+rvlets/myYahooImageSearch.class
+        new file:   distance-webapp/target/classes/com/a1electronics/ecommerce/se
+rvlets/myYahooSearch.class
+        modified:   distance-webapp/target/classes/com/mydistance/DistanceServlet
+.class
+        modified:   distance-webapp/target/maven-status/maven-compiler-plugin/com
+pile/default-compile/createdFiles.lst
+        modified:   distance-webapp/target/maven-status/maven-compiler-plugin/com
+pile/default-compile/inputFiles.lst
+        deleted:    distance-webapp/target/maven-status/maven-compiler-plugin/tes
+tCompile/default-testCompile/inputFiles.lst
+        new file:   distance-webapp/target/tmp/jsp/org/apache/jsp/RESTfulClient_j
+sp.class
+        new file:   distance-webapp/target/tmp/jsp/org/apache/jsp/RESTfulClient_j
+sp.java
+        new file:   distance-webapp/target/tmp/jsp/org/apache/jsp/index_jsp.class
+        new file:   distance-webapp/target/tmp/jsp/org/apache/jsp/index_jsp.java 
+        modified:   pom.xml
+
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe" 
+commit -m "Created"
+[devmashupapp 4f3c2b9] Created
+ 80 files changed, 17260 insertions(+), 115 deletions(-)
+ create mode 100644 .project
+ create mode 100644 .settings/org.eclipse.core.resources.prefs
+ create mode 100644 .settings/org.eclipse.m2e.core.prefs
+ create mode 100644 distance-core/.classpath
+ create mode 100644 distance-core/.project
+ create mode 100644 distance-core/.settings/org.eclipse.core.resources.prefs     
+ create mode 100644 distance-core/.settings/org.eclipse.jdt.apt.core.prefs       
+ create mode 100644 distance-core/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 distance-core/.settings/org.eclipse.m2e.core.prefs
+ create mode 100644 distance-core/.settings/org.eclipse.wst.common.component     
+ create mode 100644 distance-core/.settings/org.eclipse.wst.common.project.facet.
+core.xml
+ rewrite distance-core/target/distance.jar (97%)
+ create mode 100644 distance-core/target/surefire-reports/2026-01-16T00-47-15_135
+.dumpstream
+ create mode 100644 distance-webapp/.classpath
+ create mode 100644 distance-webapp/.project
+ create mode 100644 distance-webapp/.settings/.jsdtscope
+ create mode 100644 distance-webapp/.settings/org.eclipse.core.resources.prefs   
+ create mode 100644 distance-webapp/.settings/org.eclipse.jdt.apt.core.prefs     
+ create mode 100644 distance-webapp/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 distance-webapp/.settings/org.eclipse.m2e.core.prefs
+ create mode 100644 distance-webapp/.settings/org.eclipse.wst.common.component   
+ create mode 100644 distance-webapp/.settings/org.eclipse.wst.common.project.face
+t.core.xml
+ create mode 100644 distance-webapp/.settings/org.eclipse.wst.jsdt.ui.superType.c
+ontainer
+ create mode 100644 distance-webapp/.settings/org.eclipse.wst.jsdt.ui.superType.n
+ame
+ create mode 100644 distance-webapp/.settings/org.eclipse.wst.validation.prefs   
+ create mode 100644 distance-webapp/src/main/java/com/a1electronics/ecommerce/ser
+vlets/myGoogleSearch.java
+ create mode 100644 distance-webapp/src/main/java/com/a1electronics/ecommerce/ser
+vlets/mySemanticParse.java
+ create mode 100644 distance-webapp/src/main/java/com/a1electronics/ecommerce/ser
+vlets/myTwitterSearch.java
+ create mode 100644 distance-webapp/src/main/java/com/a1electronics/ecommerce/ser
+vlets/myYahooImageSearch.java
+ create mode 100644 distance-webapp/src/main/java/com/a1electronics/ecommerce/ser
+vlets/myYahooSearch.java
+ create mode 100644 distance-webapp/src/main/webapp/RESTfulClient.jsp
+ delete mode 100644 distance-webapp/src/main/webapp/WEB-INF/glassfish-web.xml    
+ rewrite distance-webapp/src/main/webapp/index.html (86%)
+ create mode 100644 distance-webapp/src/main/webapp/prototype.js
+ create mode 100644 distance-webapp/src/main/webapp/style.css
+ create mode 100644 distance-webapp/target/MyDistance/RESTfulClient.jsp
+ create mode 100644 distance-webapp/target/MyDistance/WEB-INF/classes/com/a1elect
+ronics/ecommerce/servlets/myGoogleSearch.class
+ create mode 100644 distance-webapp/target/MyDistance/WEB-INF/classes/com/a1elect
+ronics/ecommerce/servlets/mySemanticParse.class
+ create mode 100644 distance-webapp/target/MyDistance/WEB-INF/classes/com/a1elect
+ronics/ecommerce/servlets/myTwitterSearch.class
+ create mode 100644 distance-webapp/target/MyDistance/WEB-INF/classes/com/a1elect
+ronics/ecommerce/servlets/myYahooImageSearch.class
+ create mode 100644 distance-webapp/target/MyDistance/WEB-INF/classes/com/a1elect
+ronics/ecommerce/servlets/myYahooSearch.class
+ delete mode 100644 distance-webapp/target/MyDistance/WEB-INF/glassfish-web.xml  
+ create mode 100644 distance-webapp/target/MyDistance/WEB-INF/lib/commons-codec-1
+.3.jar
+ create mode 100644 distance-webapp/target/MyDistance/WEB-INF/lib/commons-httpcli
+ent-3.1.jar
+ create mode 100644 distance-webapp/target/MyDistance/WEB-INF/lib/commons-logging
+-1.1.1.jar
+ rewrite distance-webapp/target/MyDistance/WEB-INF/lib/distance-core-0.0.1-SNAPSH
+OT.jar (97%)
+ rewrite distance-webapp/target/MyDistance/index.html (86%)
+ create mode 100644 distance-webapp/target/MyDistance/prototype.js
+ create mode 100644 distance-webapp/target/MyDistance/style.css
+ create mode 100644 distance-webapp/target/classes/com/a1electronics/ecommerce/se
+rvlets/myGoogleSearch.class
+ create mode 100644 distance-webapp/target/classes/com/a1electronics/ecommerce/se
+rvlets/mySemanticParse.class
+ create mode 100644 distance-webapp/target/classes/com/a1electronics/ecommerce/se
+rvlets/myTwitterSearch.class
+ create mode 100644 distance-webapp/target/classes/com/a1electronics/ecommerce/se
+rvlets/myYahooImageSearch.class
+ create mode 100644 distance-webapp/target/classes/com/a1electronics/ecommerce/se
+rvlets/myYahooSearch.class
+ rewrite distance-webapp/target/maven-status/maven-compiler-plugin/compile/defaul
+t-compile/inputFiles.lst (100%)
+ delete mode 100644 distance-webapp/target/maven-status/maven-compiler-plugin/tes
+tCompile/default-testCompile/inputFiles.lst
+ create mode 100644 distance-webapp/target/tmp/jsp/org/apache/jsp/RESTfulClient_j
+sp.class
+ create mode 100644 distance-webapp/target/tmp/jsp/org/apache/jsp/RESTfulClient_j
+sp.java
+ create mode 100644 distance-webapp/target/tmp/jsp/org/apache/jsp/index_jsp.class
+ create mode 100644 distance-webapp/target/tmp/jsp/org/apache/jsp/index_jsp.java 
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe" 
+status
+On branch devmashupapp
+nothing to commit, working directory clean
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe" 
+remote
+origin
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe" 
+remote add devmashupapp https://github.com/anuppunekar/distance-multimodule.git
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe" 
+remote
+devmashupapp
+origin
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe" 
+branch
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe"
+ push -u devmashupapp devmashupapp
+Username for 'https://github.com': anuppunekar                                   
+Password for 'https://anuppunekar@github.com':
+Counting objects: 114, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (85/85), done.
+Writing objects: 100% (114/114), 824.39 KiB | 0 bytes/s, done.
+Total 114 (delta 32), reused 8 (delta 0)
+remote: Resolving deltas: 100% (32/32), completed with 12 local objects.        
+remote:
+remote: Create a pull request for 'devmashupapp' on GitHub by visiting:
+remote:      https://github.com/anuppunekar/distance-multimodule/pull/new/devmas
+hupapp
+remote:                                                                         h
+To https://github.com/anuppunekar/distance-multimodule.git
+ * [new branch]      devmashupapp -> devmashupapp
+Branch devmashupapp set up to track remote branch devmashupapp from devmashupapp
+.
+                                                                                .
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe"
+ status
+On branch devmashupapp                                                           
+Your branch is up-to-date with 'devmashupapp/devmashupapp'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        distance-core/target/classes/META-INF/
+        distance-webapp/target/m2e-wtp/
+
+nothing added to commit but untracked files present (use "git add" to track)    
+
+D:\stsProjects\distance-multimodule>                                   
+
+
