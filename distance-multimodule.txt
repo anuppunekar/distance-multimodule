@@ -500,3 +500,231 @@ nothing added to commit but untracked files present (use "git add" to track)
 D:\stsProjects\distance-multimodule>                                   
 
 
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe" branch
+  INT2601
+* devmashupapp
+  main
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe"merge devmashupapp INT2601
+'"D:\Program Files\Git\bin\git.exe"merge' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe" merge devmashupapp INT2601 
+Already up-to-date.
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe" checkout INT2601           
+Switched to branch 'INT2601'
+Your branch is up-to-date with 'devmashupapp/INT2601'.
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe" branch                     
+* INT2601
+  devmashupapp
+  main
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe" merge devmashupapp
+Updating b722df6..4f3c2b9
+Fast-forward
+ .project                                           |   17 +
+ .settings/org.eclipse.core.resources.prefs         |    2 +
+ .settings/org.eclipse.m2e.core.prefs               |    4 +
+ distance-core/.classpath                           |   59 +
+ distance-core/.project                             |   36 +
+ .../.settings/org.eclipse.core.resources.prefs     |    4 +
+ .../.settings/org.eclipse.jdt.apt.core.prefs       |    2 +
+ distance-core/.settings/org.eclipse.jdt.core.prefs |   11 +
+ distance-core/.settings/org.eclipse.m2e.core.prefs |    4 +
+ .../.settings/org.eclipse.wst.common.component     |    7 +
+ .../org.eclipse.wst.common.project.facet.core.xml  |    5 +
+ distance-core/pom.xml                              |    8 +-
+ .../com/mydistance/util/ConversionUtil.class       |  Bin 811 -> 811 bytes
+ distance-core/target/distance.jar                  |  Bin 2615 -> 2614 bytes
+ distance-core/target/maven-archiver/pom.properties |    2 +-
+ .../compile/default-compile/inputFiles.lst         |    2 +-
+ .../testCompile/default-testCompile/inputFiles.lst |    2 +-
+ .../2026-01-16T00-47-15_135.dumpstream             |    5 +
+ ...TEST-com.mydistance.util.ConversionUtilTest.xml |  119 +-
+ .../com.mydistance.util.ConversionUtilTest.txt     |    2 +-
+ .../com/mydistance/util/ConversionUtilTest.class   |  Bin 2263 -> 2263 bytes
+ distance-webapp/.classpath                         |   59 +
+ distance-webapp/.project                           |   37 +
+ distance-webapp/.settings/.jsdtscope               |   13 +
+ .../.settings/org.eclipse.core.resources.prefs     |    4 +
+ .../.settings/org.eclipse.jdt.apt.core.prefs       |    2 +
+ .../.settings/org.eclipse.jdt.core.prefs           |   11 +
+ .../.settings/org.eclipse.m2e.core.prefs           |    4 +
+ .../.settings/org.eclipse.wst.common.component     |   15 +
+ .../org.eclipse.wst.common.project.facet.core.xml  |    7 +
+ .../org.eclipse.wst.jsdt.ui.superType.container    |    1 +
+ .../org.eclipse.wst.jsdt.ui.superType.name         |    1 +
+ .../.settings/org.eclipse.wst.validation.prefs     |    2 +
+ distance-webapp/WebDMI.log                         |   55 +
+ distance-webapp/pom.xml                            |   39 +-
+ .../ecommerce/servlets/myGoogleSearch.java         |   75 +
+ .../ecommerce/servlets/mySemanticParse.java        |   76 +
+ .../ecommerce/servlets/myTwitterSearch.java        |   72 +
+ .../ecommerce/servlets/myYahooImageSearch.java     |   73 +
+ .../ecommerce/servlets/myYahooSearch.java          |   72 +
+ .../main/java/com/mydistance/DistanceServlet.java  |   12 +-
+ distance-webapp/src/main/webapp/RESTfulClient.jsp  |   30 +
+ .../src/main/webapp/WEB-INF/glassfish-web.xml      |   10 -
+ distance-webapp/src/main/webapp/WEB-INF/web.xml    |   59 +
+ distance-webapp/src/main/webapp/index.html         |  231 +-
+ distance-webapp/src/main/webapp/index.jsp          |    5 +
+ distance-webapp/src/main/webapp/prototype.js       | 7588 ++++++++++++++++++++
+ distance-webapp/src/main/webapp/style.css          |  103 +
+ distance-webapp/target/MyDistance.war              |  Bin 446917 -> 826002 bytes
+ .../target/MyDistance/RESTfulClient.jsp            |   30 +
+ .../ecommerce/servlets/myGoogleSearch.class        |  Bin 0 -> 3315 bytes
+ .../ecommerce/servlets/mySemanticParse.class       |  Bin 0 -> 3662 bytes
+ .../ecommerce/servlets/myTwitterSearch.class       |  Bin 0 -> 3290 bytes
+ .../ecommerce/servlets/myYahooImageSearch.class    |  Bin 0 -> 3104 bytes
+ .../ecommerce/servlets/myYahooSearch.class         |  Bin 0 -> 3081 bytes
+ .../classes/com/mydistance/DistanceServlet.class   |  Bin 3450 -> 3466 bytes
+ .../target/MyDistance/WEB-INF/glassfish-web.xml    |   10 -
+ .../MyDistance/WEB-INF/lib/commons-codec-1.3.jar   |  Bin 0 -> 46725 bytes
+ .../WEB-INF/lib/commons-httpclient-3.1.jar         |  Bin 0 -> 305001 bytes
+ .../WEB-INF/lib/commons-logging-1.1.1.jar          |  Bin 0 -> 60686 bytes
+ .../WEB-INF/lib/distance-core-0.0.1-SNAPSHOT.jar   |  Bin 2615 -> 2614 bytes
+ distance-webapp/target/MyDistance/WEB-INF/web.xml  |   59 +
+ distance-webapp/target/MyDistance/index.html       |  231 +-
+ distance-webapp/target/MyDistance/index.jsp        |    5 +
+ distance-webapp/target/MyDistance/prototype.js     | 7588 ++++++++++++++++++++
+ distance-webapp/target/MyDistance/style.css        |  103 +
+ .../ecommerce/servlets/myGoogleSearch.class        |  Bin 0 -> 3315 bytes
+ .../ecommerce/servlets/mySemanticParse.class       |  Bin 0 -> 3662 bytes
+ .../ecommerce/servlets/myTwitterSearch.class       |  Bin 0 -> 3290 bytes
+ .../ecommerce/servlets/myYahooImageSearch.class    |  Bin 0 -> 3104 bytes
+ .../ecommerce/servlets/myYahooSearch.class         |  Bin 0 -> 3081 bytes
+ .../classes/com/mydistance/DistanceServlet.class   |  Bin 3450 -> 3466 bytes
+ .../compile/default-compile/createdFiles.lst       |    5 +
+ .../compile/default-compile/inputFiles.lst         |    7 +-
+ .../testCompile/default-testCompile/inputFiles.lst |    0
+ .../tmp/jsp/org/apache/jsp/RESTfulClient_jsp.class |  Bin 0 -> 7183 bytes
+ .../tmp/jsp/org/apache/jsp/RESTfulClient_jsp.java  |  180 +
+ .../target/tmp/jsp/org/apache/jsp/index_jsp.class  |  Bin 0 -> 7964 bytes
+ .../target/tmp/jsp/org/apache/jsp/index_jsp.java   |  196 +
+ pom.xml                                            |    2 +-
+ 80 files changed, 17254 insertions(+), 109 deletions(-)
+ create mode 100644 .project
+ create mode 100644 .settings/org.eclipse.core.resources.prefs
+ create mode 100644 .settings/org.eclipse.m2e.core.prefs
+ create mode 100644 distance-core/.classpath
+ create mode 100644 distance-core/.project
+ create mode 100644 distance-core/.settings/org.eclipse.core.resources.prefs
+ create mode 100644 distance-core/.settings/org.eclipse.jdt.apt.core.prefs
+ create mode 100644 distance-core/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 distance-core/.settings/org.eclipse.m2e.core.prefs
+ create mode 100644 distance-core/.settings/org.eclipse.wst.common.component
+ create mode 100644 distance-core/.settings/org.eclipse.wst.common.project.facet.core.xml
+ create mode 100644 distance-core/target/surefire-reports/2026-01-16T00-47-15_135.dumpstream
+ create mode 100644 distance-webapp/.classpath
+ create mode 100644 distance-webapp/.project
+ create mode 100644 distance-webapp/.settings/.jsdtscope
+ create mode 100644 distance-webapp/.settings/org.eclipse.core.resources.prefs
+ create mode 100644 distance-webapp/.settings/org.eclipse.jdt.apt.core.prefs
+ create mode 100644 distance-webapp/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 distance-webapp/.settings/org.eclipse.m2e.core.prefs
+ create mode 100644 distance-webapp/.settings/org.eclipse.wst.common.component
+ create mode 100644 distance-webapp/.settings/org.eclipse.wst.common.project.facet.core.xml
+ create mode 100644 distance-webapp/.settings/org.eclipse.wst.jsdt.ui.superType.container
+ create mode 100644 distance-webapp/.settings/org.eclipse.wst.jsdt.ui.superType.name
+ create mode 100644 distance-webapp/.settings/org.eclipse.wst.validation.prefs
+ create mode 100644 distance-webapp/src/main/java/com/a1electronics/ecommerce/servlets/myGoogleSearch.java
+ create mode 100644 distance-webapp/src/main/java/com/a1electronics/ecommerce/servlets/mySemanticParse.java
+ create mode 100644 distance-webapp/src/main/java/com/a1electronics/ecommerce/servlets/myTwitterSearch.java
+ create mode 100644 distance-webapp/src/main/java/com/a1electronics/ecommerce/servlets/myYahooImageSearch.java
+ create mode 100644 distance-webapp/src/main/java/com/a1electronics/ecommerce/servlets/myYahooSearch.java
+ create mode 100644 distance-webapp/src/main/webapp/RESTfulClient.jsp
+ delete mode 100644 distance-webapp/src/main/webapp/WEB-INF/glassfish-web.xml
+ create mode 100644 distance-webapp/src/main/webapp/prototype.js
+ create mode 100644 distance-webapp/src/main/webapp/style.css
+ create mode 100644 distance-webapp/target/MyDistance/RESTfulClient.jsp
+ create mode 100644 distance-webapp/target/MyDistance/WEB-INF/classes/com/a1electronics/ecommerce/servlets/myGoogleSearch.class     
+ create mode 100644 distance-webapp/target/MyDistance/WEB-INF/classes/com/a1electronics/ecommerce/servlets/mySemanticParse.class    
+ create mode 100644 distance-webapp/target/MyDistance/WEB-INF/classes/com/a1electronics/ecommerce/servlets/myTwitterSearch.class    
+ create mode 100644 distance-webapp/target/MyDistance/WEB-INF/classes/com/a1electronics/ecommerce/servlets/myYahooImageSearch.class 
+ create mode 100644 distance-webapp/target/MyDistance/WEB-INF/classes/com/a1electronics/ecommerce/servlets/myYahooSearch.class      
+ delete mode 100644 distance-webapp/target/MyDistance/WEB-INF/glassfish-web.xml
+ create mode 100644 distance-webapp/target/MyDistance/WEB-INF/lib/commons-codec-1.3.jar
+ create mode 100644 distance-webapp/target/MyDistance/WEB-INF/lib/commons-httpclient-3.1.jar
+ create mode 100644 distance-webapp/target/MyDistance/WEB-INF/lib/commons-logging-1.1.1.jar
+ create mode 100644 distance-webapp/target/MyDistance/prototype.js
+ create mode 100644 distance-webapp/target/MyDistance/style.css
+ create mode 100644 distance-webapp/target/classes/com/a1electronics/ecommerce/servlets/myGoogleSearch.class
+ create mode 100644 distance-webapp/target/classes/com/a1electronics/ecommerce/servlets/mySemanticParse.class
+ create mode 100644 distance-webapp/target/classes/com/a1electronics/ecommerce/servlets/myTwitterSearch.class
+ create mode 100644 distance-webapp/target/classes/com/a1electronics/ecommerce/servlets/myYahooImageSearch.class
+ create mode 100644 distance-webapp/target/classes/com/a1electronics/ecommerce/servlets/myYahooSearch.class
+ delete mode 100644 distance-webapp/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst        
+ create mode 100644 distance-webapp/target/tmp/jsp/org/apache/jsp/RESTfulClient_jsp.class
+ create mode 100644 distance-webapp/target/tmp/jsp/org/apache/jsp/RESTfulClient_jsp.java
+ create mode 100644 distance-webapp/target/tmp/jsp/org/apache/jsp/index_jsp.class
+ create mode 100644 distance-webapp/target/tmp/jsp/org/apache/jsp/index_jsp.java
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe" status            
+On branch INT2601
+Your branch is ahead of 'devmashupapp/INT2601' by 1 commit.
+  (use "git push" to publish your local commits)
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        distance-core/target/classes/META-INF/
+        distance-multimodule.txt
+        distance-webapp/target/m2e-wtp/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe" add . 
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe" status
+On branch INT2601
+Your branch is ahead of 'devmashupapp/INT2601' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   distance-core/target/classes/META-INF/MANIFEST.MF
+        new file:   distance-core/target/classes/META-INF/maven/com.mvn/distance-core/pom.properties
+        new file:   distance-core/target/classes/META-INF/maven/com.mvn/distance-core/pom.xml
+        new file:   distance-multimodule.txt
+        new file:   distance-webapp/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+        new file:   distance-webapp/target/m2e-wtp/web-resources/META-INF/maven/com.mvn/distance-webapp/pom.properties
+        new file:   distance-webapp/target/m2e-wtp/web-resources/META-INF/maven/com.mvn/distance-webapp/pom.xml
+
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe" commit -m "merge devmashupapp" 
+[INT2601 231e7b6] merge devmashupapp
+ 7 files changed, 705 insertions(+)
+ create mode 100644 distance-core/target/classes/META-INF/MANIFEST.MF
+ create mode 100644 distance-core/target/classes/META-INF/maven/com.mvn/distance-core/pom.properties
+ create mode 100644 distance-core/target/classes/META-INF/maven/com.mvn/distance-core/pom.xml
+ create mode 100644 distance-multimodule.txt
+ create mode 100644 distance-webapp/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+ create mode 100644 distance-webapp/target/m2e-wtp/web-resources/META-INF/maven/com.mvn/distance-webapp/pom.properties
+ create mode 100644 distance-webapp/target/m2e-wtp/web-resources/META-INF/maven/com.mvn/distance-webapp/pom.xml
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe" status 
+On branch INT2601
+Your branch is ahead of 'devmashupapp/INT2601' by 2 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe" push -u devmashupapp INT2601
+Username for 'https://github.com': anuppunekar
+Password for 'https://anuppunekar@github.com': 
+Counting objects: 22, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (22/22), 4.75 KiB | 0 bytes/s, done.
+Total 22 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), completed with 4 local objects.
+To https://github.com/anuppunekar/distance-multimodule.git
+   b722df6..231e7b6  INT2601 -> INT2601
+Branch INT2601 set up to track remote branch INT2601 from devmashupapp.
+
+D:\stsProjects\distance-multimodule>"D:\Program Files\Git\bin\git.exe" status 
+On branch INT2601
+Your branch is up-to-date with 'devmashupapp/INT2601'.
+nothing to commit, working directory clean
+
+D:\stsProjects\distance-multimodule>
