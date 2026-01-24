@@ -358,3 +358,96 @@ Date:   Sun Jan 4 20:34:31 2026 +0530
 commit 4252ecae2c58e34b34c7af3792091e9cf2c1be24
 
 C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git checkout -b INT2601
+Switched to a new branch 'INT2601'
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git branch 
+* INT2601
+  dev2601
+  main
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git remote 
+dev2601
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git pull dev2601 INT2601
+remote: Enumerating objects: 313, done.
+remote: Counting objects: 100% (313/313), done.
+remote: Compressing objects: 100% (131/131), done.
+fatal: write error: No space left on device
+fatal: fetch-pack: invalid index-pack output
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git pull dev2601 INT2601
+remote: Enumerating objects: 313, done.
+remote: Counting objects: 100% (313/313), done.
+remote: Compressing objects: 100% (131/131), done.
+remote: Total 266 (delta 92), reused 232 (delta 68), pack-reused 0 (from 0)
+Receiving objects: 100% (266/266), 857.48 KiB | 1.50 MiB/s, done.
+Resolving deltas: 100% (92/92), completed with 11 local objects.
+From https://github.com/anuppunekar/distance-multimodule
+ * branch            INT2601    -> FETCH_HEAD
+ * [new branch]      INT2601    -> dev2601/INT2601
+Auto-merging .project
+CONFLICT (add/add): Merge conflict in .project
+Auto-merging .settings/org.eclipse.core.resources.prefs
+CONFLICT (add/add): Merge conflict in .settings/org.eclipse.core.resources.prefs
+Auto-merging distance-core/.classpath
+CONFLICT (add/add): Merge conflict in distance-core/.classpath
+Auto-merging distance-core/.project
+CONFLICT (add/add): Merge conflict in distance-core/.project
+Auto-merging distance-core/.settings/org.eclipse.core.resources.prefs
+CONFLICT (add/add): Merge conflict in distance-core/.settings/org.eclipse.core.resources.prefs
+Auto-merging distance-core/.settings/org.eclipse.jdt.core.prefs
+CONFLICT (add/add): Merge conflict in distance-core/.settings/org.eclipse.jdt.core.prefs
+CONFLICT (modify/delete): distance-core/target/classes/com/mydistance/util/ConversionUtil.class deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-core/target/classes/com/mydistance/util/ConversionUtil.class left in tree.
+CONFLICT (modify/delete): distance-core/target/maven-archiver/pom.properties deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-core/target/maven-archiver/pom.properties left in tree.      
+CONFLICT (modify/delete): distance-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst left in tree.
+CONFLICT (modify/delete): distance-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst left in tree.
+CONFLICT (modify/delete): distance-core/target/surefire-reports/TEST-com.mydistance.util.ConversionUtilTest.xml deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-core/target/surefire-reports/TEST-com.mydistance.util.ConversionUtilTest.xml left in tree.
+CONFLICT (modify/delete): distance-core/target/surefire-reports/com.mydistance.util.ConversionUtilTest.txt deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-core/target/surefire-reports/com.mydistance.util.ConversionUtilTest.txt left in tree.
+CONFLICT (modify/delete): distance-core/target/test-classes/com/mydistance/util/ConversionUtilTest.class deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-core/target/test-classes/com/mydistance/util/ConversionUtilTest.class left in tree.
+Auto-merging distance-webapp/.classpath
+CONFLICT (add/add): Merge conflict in distance-webapp/.classpath
+Auto-merging distance-webapp/.project
+CONFLICT (add/add): Merge conflict in distance-webapp/.project
+Auto-merging distance-webapp/.settings/org.eclipse.core.resources.prefs
+CONFLICT (add/add): Merge conflict in distance-webapp/.settings/org.eclipse.core.resources.prefs
+Auto-merging distance-webapp/.settings/org.eclipse.jdt.core.prefs
+CONFLICT (add/add): Merge conflict in distance-webapp/.settings/org.eclipse.jdt.core.prefs
+Auto-merging distance-webapp/WebDMI.log
+CONFLICT (content): Merge conflict in distance-webapp/WebDMI.log
+Auto-merging distance-webapp/pom.xml
+CONFLICT (content): Merge conflict in distance-webapp/pom.xml
+Auto-merging distance-webapp/src/main/java/com/mydistance/DistanceServlet.java
+CONFLICT (content): Merge conflict in distance-webapp/src/main/java/com/mydistance/DistanceServlet.java
+Auto-merging distance-webapp/src/main/webapp/WEB-INF/web.xml
+CONFLICT (modify/delete): distance-webapp/src/main/webapp/index.html deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-webapp/src/main/webapp/index.html left in tree.
+CONFLICT (modify/delete): distance-webapp/src/main/webapp/index.jsp deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-webapp/src/main/webapp/index.jsp left in tree.
+CONFLICT (modify/delete): distance-webapp/target/MyDistance.war deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-webapp/target/MyDistance.war left in tree.
+CONFLICT (modify/delete): distance-webapp/target/MyDistance/WEB-INF/classes/com/mydistance/DistanceServlet.class deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-webapp/target/MyDistance/WEB-INF/classes/com/mydistance/DistanceServlet.class left in tree.
+CONFLICT (modify/delete): distance-webapp/target/MyDistance/WEB-INF/lib/distance-core-0.0.1-SNAPSHOT.jar deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-webapp/target/MyDistance/WEB-INF/lib/distance-core-0.0.1-SNAPSHOT.jar left in tree.
+CONFLICT (modify/delete): distance-webapp/target/MyDistance/WEB-INF/web.xml deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-webapp/target/MyDistance/WEB-INF/web.xml left in tree.        
+CONFLICT (modify/delete): distance-webapp/target/MyDistance/index.html deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-webapp/target/MyDistance/index.html left in tree.
+CONFLICT (modify/delete): distance-webapp/target/MyDistance/index.jsp deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb4004* INT2601
+  dev2601  main
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git reset --hard
+HEAD is now at 89a394c Updated
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git status
+On branch INT2601
+nothing to commit, working tree clean
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git branch
+* INT2601
+  dev2601
+  main
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git checkout -b dev2601
+fatal: a branch named 'dev2601' already exists
+
+  INT2601
+* dev2601
+  main
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>
