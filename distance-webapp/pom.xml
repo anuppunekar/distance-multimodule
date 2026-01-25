@@ -17,16 +17,28 @@
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+<<<<<<< HEAD
         <jettyVersion>12.1.4</jettyVersion>
+=======
+	    <jettyVersion>12.1.4</jettyVersion>
+>>>>>>> dev2601
     </properties>
     
     <dependencies>
+		<dependency>
+		  <groupId>jakarta.servlet</groupId>
+		  <artifactId>jakarta.servlet-api</artifactId>
+		  <version>6.0.0</version>
+		  <scope>provided</scope>
+		</dependency>
+		<!-- 
         <dependency>
             <groupId>jakarta.servlet</groupId>
             <artifactId>jakarta.servlet-api</artifactId>
             <version>6.0.0</version>
             <scope>provided</scope>
         </dependency>
+		-->
         <!-- For logging purpose could be put in parent POM for modules to inherit -->
         <dependency>
             <groupId>log4j</groupId>
@@ -45,6 +57,15 @@
             <version>7.0</version>
             <scope>provided</scope>
         </dependency>
+<<<<<<< HEAD
+=======
+		<!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-maven-plugin -->
+		<!-- <dependency>
+		    <groupId>org.eclipse.jetty</groupId>
+		    <artifactId>jetty-maven-plugin</artifactId>
+		    <version>11.0.26</version>
+		</dependency> -->
+>>>>>>> dev2601
 
 		<!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
 		<dependency>

@@ -1,0 +1,453 @@
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE>cd Distance-main
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git remote 
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git branch                                          
+* dev2601
+  main
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git remote add dev2601 https://github.com/anuppunekar/distance-multimodule
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git remote                                          
+dev2601
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git branch
+* dev2601
+  main
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git add .                                           warning: in the working copy of 'distance-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'distance-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'distance-webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'distance-webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'distance-core/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'distance-webapp/.gitignore', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git status
+On branch dev2601
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .project
+        new file:   .settings/org.eclipse.core.resources.prefs
+        new file:   distance-core/.classpath
+        new file:   distance-core/.gitignore
+        new file:   distance-core/.project
+        new file:   distance-core/.settings/org.eclipse.core.resources.prefs
+        new file:   distance-core/.settings/org.eclipse.jdt.core.prefs
+        modified:   distance-core/target/classes/com/mydistance/util/ConversionUtil.class
+        modified:   distance-core/target/distance-core-0.0.1-SNAPSHOT.jar
+        modified:   distance-core/target/maven-archiver/pom.properties
+        modified:   distance-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+        modified:   distance-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+        modified:   distance-core/target/surefire-reports/TEST-com.mydistance.util.ConversionUtilTest.xml
+        modified:   distance-core/target/surefire-reports/com.mydistance.util.ConversionUtilTest.txt
+        modified:   distance-core/target/test-classes/com/mydistance/util/ConversionUtilTest.class
+        new file:   distance-webapp/.classpath
+        new file:   distance-webapp/.gitignore
+        new file:   distance-webapp/.project
+        new file:   distance-webapp/.settings/org.eclipse.core.resources.prefs
+        new file:   distance-webapp/.settings/org.eclipse.jdt.core.prefs
+        modified:   distance-webapp/WebDMI.log
+        modified:   distance-webapp/pom.xml
+        new file:   distance-webapp/src/main/java/com/a1electronics/ecommerce/servlets/myGoogleSearch.java
+        new file:   distance-webapp/src/main/java/com/a1electronics/ecommerce/servlets/myYahooImageSearch.java
+        new file:   distance-webapp/src/main/java/com/a1electronics/ecommerce/servlets/myYahooSearch.java
+        modified:   distance-webapp/src/main/java/com/mydistance/DistanceServlet.java
+        modified:   distance-webapp/src/main/webapp/WEB-INF/web.xml
+        modified:   distance-webapp/src/main/webapp/index.html
+        modified:   distance-webapp/src/main/webapp/index.jsp
+        new file:   distance-webapp/src/main/webapp/style.css
+        modified:   distance-webapp/target/MyDistance.war
+        modified:   distance-webapp/target/MyDistance/WEB-INF/classes/com/mydistance/DistanceServlet.class
+        modified:   distance-webapp/target/MyDistance/WEB-INF/lib/distance-core-0.0.1-SNAPSHOT.jar
+        modified:   distance-webapp/target/MyDistance/WEB-INF/web.xml
+        modified:   distance-webapp/target/MyDistance/index.html
+        modified:   distance-webapp/target/MyDistance/index.jsp
+        modified:   distance-webapp/target/classes/com/mydistance/DistanceServlet.class
+        modified:   distance-webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+        modified:   distance-webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+        deleted:    distance-webapp/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git commit -m "Created"
+[dev2601 4252eca] Created
+ 40 files changed, 1176 insertions(+), 89 deletions(-)
+ create mode 100644 .project
+ create mode 100644 .settings/org.eclipse.core.resources.prefs
+ create mode 100644 distance-core/.classpath
+ create mode 100644 distance-core/.gitignore
+ create mode 100644 distance-core/.project
+ create mode 100644 distance-core/.settings/org.eclipse.core.resources.prefs
+ create mode 100644 distance-core/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 distance-webapp/.classpath
+ create mode 100644 distance-webapp/.gitignore
+ create mode 100644 distance-webapp/.project
+ create mode 100644 distance-webapp/.settings/org.eclipse.core.resources.prefs
+ create mode 100644 distance-webapp/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 distance-webapp/src/main/java/com/a1electronics/ecommerce/servlets/myGoogleSearch.java
+ create mode 100644 distance-webapp/src/main/java/com/a1electronics/ecommerce/servlets/myYahooImageSearch.java
+ create mode 100644 distance-webapp/src/main/java/com/a1electronics/ecommerce/servlets/myYahooSearch.java
+ create mode 100644 distance-webapp/src/main/webapp/style.css
+ delete mode 100644 distance-webapp/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git status
+On branch dev2601
+nothing to commit, working tree clean
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git push -u dev2601 dev2601
+To https://github.com/anuppunekar/distance-multimodule
+ ! [rejected]        dev2601 -> dev2601 (fetch first)
+error: failed to push some refs to 'https://github.com/anuppunekar/distance-multimodule'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git push -u dev2601 dev2601
+Enumerating objects: 235, done.
+Counting objects: 100% (235/235), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (136/136), done.
+Writing objects: 100% (235/235), 1.45 MiB | 581.00 KiB/s, done.
+Total 235 (delta 41), reused 147 (delta 22), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (41/41), done.
+remote: 
+remote: Create a pull request for 'dev2601' on GitHub by visiting:
+remote:      https://github.com/anuppunekar/distance-multimodule/pull/new/dev2601
+remote:
+remote: Heads up! The branch 'dev2601' that you pushed to was renamed to 'dev2601bak'.
+remote:
+To https://github.com/anuppunekar/distance-multimodule
+ * [new branch]      dev2601 -> dev2601
+branch 'dev2601' set up to track 'dev2601/dev2601'.
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git status
+On branch dev2601
+Your branch is up to date with 'dev2601/dev2601'.
+
+nothing to commit, working tree clean
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git log
+commit 4252ecae2c58e34b34c7af3792091e9cf2c1be24 (HEAD -> dev2601, dev2601/dev2601)
+Author: anuppunekar <anup.punekar@gmail.com>
+Date:   Sun Jan 4 20:16:31 2026 +0530
+
+    Created
+
+commit b3f0aa9a40c1e244a5ee4631e3c6f249115d7f88 (main)
+Author: anuppunekar <48128355+anuppunekar@users.noreply.github.com>
+Date:   Mon Jul 15 11:01:18 2024 +0530
+
+    Update pom.xml
+
+commit 180a93ef4c399e6f5e7073c30953469123e8e2df
+Author: anuppunekar <48128355+anuppunekar@users.noreply.github.com>
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git remote 
+dev2601
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git branch                                          * dev2601
+  main
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git status                                          On branch dev2601
+Your branch is up to date with 'dev2601/dev2601'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Distance-main.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git add .
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git status
+On branch dev2601
+Your branch is up to date with 'dev2601/dev2601'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Distance-main.txt
+
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git commit -m "Created"
+[dev2601 75bd7d4] Created
+ 1 file changed, 146 insertions(+)
+ create mode 100644 Distance-main.txt
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git status
+On branch dev2601
+Your branch is ahead of 'dev2601/dev2601' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Microsoft Windows [Version 10.0.22631.6199]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git remote
+dev2601
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git branch
+* dev2601
+  main
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git status
+On branch dev2601
+Your branch is up to date with 'dev2601/dev2601'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    distance-core/target/classes/com/mydistance/util/ConversionUtil.class
+        deleted:    distance-core/target/distance-core-0.0.1-SNAPSHOT.jar
+        deleted:    distance-core/target/maven-archiver/pom.properties
+        deleted:    distance-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+        deleted:    distance-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+        deleted:    distance-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+        deleted:    distance-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+        deleted:    distance-core/target/surefire-reports/TEST-com.mydistance.util.ConversionUtilTest.xml
+        deleted:    distance-core/target/surefire-reports/com.mydistance.util.ConversionUtilTest.txt
+        deleted:    distance-core/target/test-classes/com/mydistance/util/ConversionUtilTest.class
+        deleted:    distance-webapp/src/main/java/com/a1electronics/ecommerce/servlets/myGoogleSearch.java
+        deleted:    distance-webapp/src/main/java/com/a1electronics/ecommerce/servlets/myYahooImageSearch.java
+        deleted:    distance-webapp/src/main/java/com/a1electronics/ecommerce/servlets/myYahooSearch.java
+        modified:   distance-webapp/src/main/webapp/WEB-INF/web.xml
+        deleted:    distance-webapp/src/main/webapp/index.html
+        deleted:    distance-webapp/src/main/webapp/index.jsp
+        deleted:    distance-webapp/src/main/webapp/style.css
+        deleted:    distance-webapp/target/MyDistance.war
+        deleted:    distance-webapp/target/MyDistance/META-INF/context.xml
+        deleted:    distance-webapp/target/MyDistance/WEB-INF/classes/com/mydistance/DistanceServlet.class
+        deleted:    distance-webapp/target/MyDistance/WEB-INF/classes/log4j.properties
+        deleted:    distance-webapp/target/MyDistance/WEB-INF/glassfish-web.xml
+        deleted:    distance-webapp/target/MyDistance/WEB-INF/lib/distance-core-0.0.1-SNAPSHOT.jar
+        deleted:    distance-webapp/target/MyDistance/WEB-INF/lib/log4j-1.2.17.jar
+        deleted:    distance-webapp/target/MyDistance/WEB-INF/web.xml
+        deleted:    distance-webapp/target/MyDistance/index.html
+        deleted:    distance-webapp/target/MyDistance/index.jsp
+        deleted:    distance-webapp/target/classes/com/mydistance/DistanceServlet.class
+        deleted:    distance-webapp/target/classes/log4j.properties
+        deleted:    distance-webapp/target/endorsed/javaee-endorsed-api-7.0.jar
+        deleted:    distance-webapp/target/maven-archiver/pom.properties
+        deleted:    distance-webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+        deleted:    distance-webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        distance-webapp/src/main/webapp/RESTfulClient.jsp
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git add .
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git status
+On branch dev2601
+Your branch is up to date with 'dev2601/dev2601'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    distance-core/target/classes/com/mydistance/util/ConversionUtil.class
+        deleted:    distance-core/target/distance-core-0.0.1-SNAPSHOT.jar
+        deleted:    distance-core/target/maven-archiver/pom.properties
+        deleted:    distance-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+        deleted:    distance-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+        deleted:    distance-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+        deleted:    distance-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+        deleted:    distance-core/target/surefire-reports/TEST-com.mydistance.util.ConversionUtilTest.xml
+        deleted:    distance-core/target/surefire-reports/com.mydistance.util.ConversionUtilTest.txt
+        deleted:    distance-core/target/test-classes/com/mydistance/util/ConversionUtilTest.class
+        deleted:    distance-webapp/src/main/java/com/a1electronics/ecommerce/servlets/myGoogleSearch.java
+        deleted:    distance-webapp/src/main/java/com/a1electronics/ecommerce/servlets/myYahooImageSearch.java
+        deleted:    distance-webapp/src/main/java/com/a1electronics/ecommerce/servlets/myYahooSearch.java
+        new file:   distance-webapp/src/main/webapp/RESTfulClient.jsp
+        modified:   distance-webapp/src/main/webapp/WEB-INF/web.xml
+        deleted:    distance-webapp/src/main/webapp/index.html
+        deleted:    distance-webapp/src/main/webapp/index.jsp
+        deleted:    distance-webapp/src/main/webapp/style.css
+        deleted:    distance-webapp/target/MyDistance.war
+        deleted:    distance-webapp/target/MyDistance/META-INF/context.xml
+        deleted:    distance-webapp/target/MyDistance/WEB-INF/classes/com/mydistance/DistanceServlet.class
+        deleted:    distance-webapp/target/MyDistance/WEB-INF/classes/log4j.properties
+        deleted:    distance-webapp/target/MyDistance/WEB-INF/glassfish-web.xml
+        deleted:    distance-webapp/target/MyDistance/WEB-INF/lib/distance-core-0.0.1-SNAPSHOT.jar
+        deleted:    distance-webapp/target/MyDistance/WEB-INF/lib/log4j-1.2.17.jar
+        deleted:    distance-webapp/target/MyDistance/WEB-INF/web.xml
+        deleted:    distance-webapp/target/MyDistance/index.html
+        deleted:    distance-webapp/target/MyDistance/index.jsp
+        deleted:    distance-webapp/target/classes/com/mydistance/DistanceServlet.class
+        deleted:    distance-webapp/target/classes/log4j.properties
+        deleted:    distance-webapp/target/endorsed/javaee-endorsed-api-7.0.jar
+        deleted:    distance-webapp/target/maven-archiver/pom.properties
+        deleted:    distance-webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+        deleted:    distance-webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git commit -m "Created"
+[dev2601 f5d1c90] Created
+ 34 files changed, 31 insertions(+), 1118 deletions(-)
+ delete mode 100644 distance-core/target/classes/com/mydistance/util/ConversionUtil.class
+ delete mode 100644 distance-core/target/distance-core-0.0.1-SNAPSHOT.jar
+ delete mode 100644 distance-core/target/maven-archiver/pom.properties
+ delete mode 100644 distance-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+ delete mode 100644 distance-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+ delete mode 100644 distance-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+ delete mode 100644 distance-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+ delete mode 100644 distance-core/target/surefire-reports/TEST-com.mydistance.util.ConversionUtilTest.xml
+ delete mode 100644 distance-core/target/surefire-reports/com.mydistance.util.ConversionUtilTest.txt
+ delete mode 100644 distance-core/target/test-classes/com/mydistance/util/ConversionUtilTest.class
+ delete mode 100644 distance-webapp/src/main/java/com/a1electronics/ecommerce/servlets/myGoogleSearch.java
+ delete mode 100644 distance-webapp/src/main/java/com/a1electronics/ecommerce/servlets/myYahooImageSearch.java
+ delete mode 100644 distance-webapp/src/main/java/com/a1electronics/ecommerce/servlets/myYahooSearch.java
+ create mode 100644 distance-webapp/src/main/webapp/RESTfulClient.jsp
+ delete mode 100644 distance-webapp/src/main/webapp/index.html
+ delete mode 100644 distance-webapp/src/main/webapp/index.jsp
+ delete mode 100644 distance-webapp/src/main/webapp/style.css
+ delete mode 100644 distance-webapp/target/MyDistance.war
+ delete mode 100644 distance-webapp/target/MyDistance/META-INF/context.xml
+ delete mode 100644 distance-webapp/target/MyDistance/WEB-INF/classes/com/mydistance/DistanceServlet.class
+ delete mode 100644 distance-webapp/target/MyDistance/WEB-INF/classes/log4j.properties
+ delete mode 100644 distance-webapp/target/MyDistance/WEB-INF/glassfish-web.xml
+ delete mode 100644 distance-webapp/target/MyDistance/WEB-INF/lib/distance-core-0.0.1-SNAPSHOT.jar
+ delete mode 100644 distance-webapp/target/MyDistance/WEB-INF/lib/log4j-1.2.17.jar
+ delete mode 100644 distance-webapp/target/MyDistance/WEB-INF/web.xml
+ delete mode 100644 distance-webapp/target/MyDistance/index.html
+ delete mode 100644 distance-webapp/target/MyDistance/index.jsp
+ delete mode 100644 distance-webapp/target/classes/com/mydistance/DistanceServlet.class
+ delete mode 100644 distance-webapp/target/classes/log4j.properties
+ delete mode 100644 distance-webapp/target/endorsed/javaee-endorsed-api-7.0.jar
+ delete mode 100644 distance-webapp/target/maven-archiver/pom.properties
+ delete mode 100644 distance-webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+ delete mode 100644 distance-webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git status
+On branch dev2601
+Your branch is ahead of 'dev2601/dev2601' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git push -u dev2601 dev2601
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (12/12), 1.28 KiB | 435.00 KiB/s, done.
+Total 12 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/anuppunekar/distance-multimodule
+   606ac1e..f5d1c90  dev2601 -> dev2601
+branch 'dev2601' set up to track 'dev2601/dev2601'.
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git status
+On branch dev2601
+Your branch is up to date with 'dev2601/dev2601'.
+
+
+
+
+
+
+
+
+commit 75bd7d4773b7dde4bb95b1fa414ef88fc0da7976
+Author: anuppunekar <anup.punekar@gmail.com>
+Date:   Sun Jan 4 20:34:31 2026 +0530
+
+    Created
+
+commit 4252ecae2c58e34b34c7af3792091e9cf2c1be24
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git checkout -b INT2601
+Switched to a new branch 'INT2601'
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git branch 
+* INT2601
+  dev2601
+  main
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git remote 
+dev2601
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git pull dev2601 INT2601
+remote: Enumerating objects: 313, done.
+remote: Counting objects: 100% (313/313), done.
+remote: Compressing objects: 100% (131/131), done.
+fatal: write error: No space left on device
+fatal: fetch-pack: invalid index-pack output
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git pull dev2601 INT2601
+remote: Enumerating objects: 313, done.
+remote: Counting objects: 100% (313/313), done.
+remote: Compressing objects: 100% (131/131), done.
+remote: Total 266 (delta 92), reused 232 (delta 68), pack-reused 0 (from 0)
+Receiving objects: 100% (266/266), 857.48 KiB | 1.50 MiB/s, done.
+Resolving deltas: 100% (92/92), completed with 11 local objects.
+From https://github.com/anuppunekar/distance-multimodule
+ * branch            INT2601    -> FETCH_HEAD
+ * [new branch]      INT2601    -> dev2601/INT2601
+Auto-merging .project
+CONFLICT (add/add): Merge conflict in .project
+Auto-merging .settings/org.eclipse.core.resources.prefs
+CONFLICT (add/add): Merge conflict in .settings/org.eclipse.core.resources.prefs
+Auto-merging distance-core/.classpath
+CONFLICT (add/add): Merge conflict in distance-core/.classpath
+Auto-merging distance-core/.project
+CONFLICT (add/add): Merge conflict in distance-core/.project
+Auto-merging distance-core/.settings/org.eclipse.core.resources.prefs
+CONFLICT (add/add): Merge conflict in distance-core/.settings/org.eclipse.core.resources.prefs
+Auto-merging distance-core/.settings/org.eclipse.jdt.core.prefs
+CONFLICT (add/add): Merge conflict in distance-core/.settings/org.eclipse.jdt.core.prefs
+CONFLICT (modify/delete): distance-core/target/classes/com/mydistance/util/ConversionUtil.class deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-core/target/classes/com/mydistance/util/ConversionUtil.class left in tree.
+CONFLICT (modify/delete): distance-core/target/maven-archiver/pom.properties deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-core/target/maven-archiver/pom.properties left in tree.      
+CONFLICT (modify/delete): distance-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst left in tree.
+CONFLICT (modify/delete): distance-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst left in tree.
+CONFLICT (modify/delete): distance-core/target/surefire-reports/TEST-com.mydistance.util.ConversionUtilTest.xml deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-core/target/surefire-reports/TEST-com.mydistance.util.ConversionUtilTest.xml left in tree.
+CONFLICT (modify/delete): distance-core/target/surefire-reports/com.mydistance.util.ConversionUtilTest.txt deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-core/target/surefire-reports/com.mydistance.util.ConversionUtilTest.txt left in tree.
+CONFLICT (modify/delete): distance-core/target/test-classes/com/mydistance/util/ConversionUtilTest.class deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-core/target/test-classes/com/mydistance/util/ConversionUtilTest.class left in tree.
+Auto-merging distance-webapp/.classpath
+CONFLICT (add/add): Merge conflict in distance-webapp/.classpath
+Auto-merging distance-webapp/.project
+CONFLICT (add/add): Merge conflict in distance-webapp/.project
+Auto-merging distance-webapp/.settings/org.eclipse.core.resources.prefs
+CONFLICT (add/add): Merge conflict in distance-webapp/.settings/org.eclipse.core.resources.prefs
+Auto-merging distance-webapp/.settings/org.eclipse.jdt.core.prefs
+CONFLICT (add/add): Merge conflict in distance-webapp/.settings/org.eclipse.jdt.core.prefs
+Auto-merging distance-webapp/WebDMI.log
+CONFLICT (content): Merge conflict in distance-webapp/WebDMI.log
+Auto-merging distance-webapp/pom.xml
+CONFLICT (content): Merge conflict in distance-webapp/pom.xml
+Auto-merging distance-webapp/src/main/java/com/mydistance/DistanceServlet.java
+CONFLICT (content): Merge conflict in distance-webapp/src/main/java/com/mydistance/DistanceServlet.java
+Auto-merging distance-webapp/src/main/webapp/WEB-INF/web.xml
+CONFLICT (modify/delete): distance-webapp/src/main/webapp/index.html deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-webapp/src/main/webapp/index.html left in tree.
+CONFLICT (modify/delete): distance-webapp/src/main/webapp/index.jsp deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-webapp/src/main/webapp/index.jsp left in tree.
+CONFLICT (modify/delete): distance-webapp/target/MyDistance.war deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-webapp/target/MyDistance.war left in tree.
+CONFLICT (modify/delete): distance-webapp/target/MyDistance/WEB-INF/classes/com/mydistance/DistanceServlet.class deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-webapp/target/MyDistance/WEB-INF/classes/com/mydistance/DistanceServlet.class left in tree.
+CONFLICT (modify/delete): distance-webapp/target/MyDistance/WEB-INF/lib/distance-core-0.0.1-SNAPSHOT.jar deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-webapp/target/MyDistance/WEB-INF/lib/distance-core-0.0.1-SNAPSHOT.jar left in tree.
+CONFLICT (modify/delete): distance-webapp/target/MyDistance/WEB-INF/web.xml deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-webapp/target/MyDistance/WEB-INF/web.xml left in tree.        
+CONFLICT (modify/delete): distance-webapp/target/MyDistance/index.html deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba.  Version 3c4ee9899aa9b8f1c0fe27bcd5197fb40043a4ba of distance-webapp/target/MyDistance/index.html left in tree.
+CONFLICT (modify/delete): distance-webapp/target/MyDistance/index.jsp deleted in HEAD and modified in 3c4ee9899aa9b8f1c0fe27bcd5197fb4004* INT2601
+  dev2601  main
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git reset --hard
+HEAD is now at 89a394c Updated
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git status
+On branch INT2601
+nothing to commit, working tree clean
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git branch
+* INT2601
+  dev2601
+  main
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>git checkout -b dev2601
+fatal: a branch named 'dev2601' already exists
+
+  INT2601
+* dev2601
+  main
+
+C:\Users\Akash Sonavane\workspace-spring-tool-suite-4-4.23.1.RELEASE\Distance-main>

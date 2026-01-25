@@ -16,12 +16,21 @@
 package com.mydistance;
 
 import com.mydistance.util.ConversionUtil;
-import java.io.IOException;
-import java.io.PrintWriter;
+//import java.io.IOException;
+//import java.io.PrintWriter;
 //import javax.servlet.ServletException;
 //import javax.servlet.http.HttpServlet;
 //import javax.servlet.http.HttpServletRequest;
 //import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
+<<<<<<< HEAD
+//import javax.servlet.ServletException;
+//import javax.servlet.http.HttpServlet;
+//import javax.servlet.http.HttpServletRequest;
+//import javax.servlet.http.HttpServletResponse;
+=======
+>>>>>>> dev2601
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -50,26 +59,31 @@ public class DistanceServlet extends HttpServlet {
             throws ServletException, IOException {
  
         double convertVal = 0;
-        double distanceProvided = Double.parseDouble(request.getParameter("distance"));
+        //double distanceProvided = Double.parseDouble(request.getParameter("distance"));
+        String distanceProvided = request.getParameter("distance");
         String distanceIn = request.getParameter("distIn");
         String convertTo = request.getParameter("convert");
         log.debug("Request Parameters ==>"+"Distance-"+distanceProvided+distanceIn+" Conversion Unit- "+convertTo);
         
         ConversionUtil conversion= new ConversionUtil();
         if(distanceIn.equals("km") && convertTo.equals("yd")){
-            convertVal=conversion.convertkmToYard(distanceProvided);
+            //convertVal=conversion.convertkmToYard(distanceProvided);
+            convertVal=conversion.convertkmToYard(Double.parseDouble(distanceProvided));
         }
         
         if(distanceIn.equals("m") && convertTo.equals("yd")){
-            convertVal=conversion.convertMtoYard(distanceProvided);
+            //convertVal=conversion.convertMtoYard(distanceProvided);
+            convertVal=conversion.convertMtoYard(Double.parseDouble(distanceProvided));
         }
         
         if(distanceIn.equals("km") && convertTo.equals("mi")){
-            convertVal=conversion.convertKMToMile(distanceProvided);
+            //convertVal=conversion.convertKMToMile(distanceProvided);
+            convertVal=conversion.convertKMToMile(Double.parseDouble(distanceProvided));
         }
 
         if(distanceIn.equals("m") && convertTo.equals("mi")){
-            convertVal=conversion.convertMToMile(distanceProvided);
+            //convertVal=conversion.convertMToMile(distanceProvided);
+            convertVal=conversion.convertMToMile(Double.parseDouble(distanceProvided));
         }
         
         response.setContentType("text/html;charset=UTF-8");
